@@ -35,3 +35,4 @@ function generateTemplate() {
   let madlib = `${inputTwelve.value} ${inputOne.vlaue} is the main character of this story. ${inputOne.value} is ${inputTwo.value} and ${inputThree}. `
   console.log(madlib); // instead of logging, we need to add HTML to the output object
 }
+innerHTML(madlib);
